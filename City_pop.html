@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>City Pop</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Playfair Display;
+}
+
+/* Style the header */
+header {
+  background-color: #99ccff;
+  padding: 40px;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #cce6ff;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #004d99;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2> City Pop + pop </h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">Main Menu</a></li>
+      <li><a href="#">City pop</a></li>
+      <li><a href="#">Classics</a></li>
+      <li><a href="#">Classic pieces</a></li>
+      <li><a href="#">Deathcore</a></li>
+      <li><a href="#">Goth pop</a></li>
+      <li><a href="#">Idol</a></li>
+      <li><a href="#">Rock</a></li>
+      <li><a href="#">R&B</a></li>
+      <li><a href="#">Visual Kei</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <p><strong>Song Name:    </p>
+    <p><strong>Music Video:    </p>
+    <p><strong>Ablum:    </p>
+    <a href= "https://open.spotify.com/artist/3QVolfxko2UyCOtexhVTli"> <img src="C:\Users\gisse\Downloads\music artists\Angèle.jpg" style="width:104px;height:104px;"></a>
+
+  </article>
+</section>
+
+<footer>
+  <p>Created by: Gisselle</p>
+</footer>
+
+</body>
+</html>
